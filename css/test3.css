@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+
+    display: grid;
+    grid-template-rows:  11fr;
+    grid-template-columns: 2fr 9fr;
+}
+
+#reft{
+    border: 3px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr  ;
+
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+#right {
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr ;
+    grid-template-columns: 1fr ;
+}
+
+#search {
+    justify-content: center;
+align-items: flex-start;
+     
+}
+
+#search-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-area > input {
+    width: 300px;
+    height: 30px;
+    font-size: 1.2em;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+#search-area > button {
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    margin-left: 20px;
+    border: 5px double violet;
+    background-color: orangered;
+}
+
+#video1 {
+         display: grid;
+    grid-template-rows: 1fr ;
+    grid-template-columns: 1fr 1fr 1fr ;
+}   
+
+#video2 {
+         display: grid;
+    grid-template-rows: 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+} 
+
+#reft > div {
+   display: flex;
+   justify-content: center  ;
+
+    
+}
+
+#reft > div > i {
+    
+    font-size: 30px;
+    padding-right: 20px
+}
+
+#reft > div > line {
+    
+  height: 10px;             /* 선 두께 */
+  background-color: gold;   /* 선 색상 */
+  width: 100%;             /* 전체 가로 길이 */
+  margin: 20px 0;          /* 위아래 여백 */
+  color: black;
+}
+
+

@@ -1,0 +1,65 @@
+   
+   h1{
+    /* 글씨체 font-family  */
+    font-family:"궁서체", "굴림체" ;
+
+    /* 텍스트 크기 */
+    font-size: 64px;
+
+    /* 텍스트 두께 */
+    font-weight: bold;
+
+    /* 글자 스타일  */
+    font-style: italic;
+
+    /* 글자 색 */
+    color: black
+
+    /* 데코레이션 언더라인 ,overline,none 밑줄 , 취소선*/
+    
+    text-decoration  underline;
+
+    /* 트랜스폼 첫번째글자 대문자capitalize lowercase */
+    text-transform: capitalize; 
+
+    /* 그림자  text-shadow:0px 0px 10px red;*/
+       text-shadow:0px 0px 4px #ccc ,
+                0px -5px 4px #ff3 , 
+                2px -10px 6px #fd3 , 
+                -2px -15px 11px #f80 , 
+                2px -19px 18px #f20 ;
+ 
+
+    /* 글자 간격 */
+    letter-spacing: 10px;
+
+    /* 단어 간격 */
+    word-spacing:100px;
+
+}
+
+
+p{
+    /* 문단스타일 */
+    text-align: justify;
+
+}
+
+div{
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+
+    /* overflow:hidden 
+    overflow: scroll; 
+    text-overflow: ellipsis
+     white-space: nowrap
+    text-overflow:ellipsis
+    */
+
+}
+
+

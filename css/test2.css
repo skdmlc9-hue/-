@@ -1,0 +1,32 @@
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr 250px; /* 왼쪽메뉴 | 메인 | 오른쪽사이드 */
+  grid-template-rows: 200px 1fr 200px;      /* 헤더 | 본문 | 푸터 */
+  height: 100vh;
+}
+
+/* 각 영역 배치 */
+.header {
+  grid-column: 1 / 4;   /* 전체 열 차지 */
+  background: #ffcccc;
+}
+
+.nav {
+  grid-column: 1 / 2;   /* 왼쪽 */
+  background: #ccffcc;
+}
+
+.main {
+  grid-column: 2 / 3;   /* 가운데 */
+  background: #ccccff;
+}
+
+.aside {
+  grid-column: 3 / 4;   /* 오른쪽 */
+  background: #ffffcc;
+}
+
+.footer {
+  grid-column: 1 / 4;   /* 전체 열 */
+  background: #ffccff;
+}

@@ -1,0 +1,99 @@
+body {margin: 0;}
+
+div{
+    box-sizing: border-box;}
+
+#wrapper{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+
+#wrapper > div {
+    border: 1px solid gray; }
+
+    
+#header{
+  height: 20%;
+  display: flex;
+}
+
+#header > div{
+    border: 1px solid blue;
+}
+
+#header > div:nth-child(1){
+    width: 30%;
+    height: 100%;
+}
+
+#header > div:nth-child(2){
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header > div:nth-child(3){
+    width: 20%;
+    height: 100%;
+}
+
+#menu {
+    height: 5%;
+    font-size: 20px;
+    color: yellow;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start; /* 왼쪽 정렬 */
+    align-items: center;         /* 세로 가운데 정렬(선택) */
+    gap: 20px;                   /* 요소 사이 여백(선택) */
+    
+    
+}
+
+#main {
+    height: 50%;
+    display: flex;
+}
+
+#main > div{
+    border: 1px solid blue;
+}
+
+#main > div:nth-child(1){
+    width: 15%;
+    height: 100%;
+}
+
+#main > div:nth-child(2){
+    width: 55%;
+    height: 100%;
+}
+
+#main > div:nth-child(3){
+    width: 30%;
+    height: 100%;
+}
+
+#menu2{
+    height: 5%;
+    
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start; /* 왼쪽 정렬 */
+    align-items: center;         /* 세로 가운데 정렬(선택) */
+    gap: 20px;                   /* 요소 사이 여백(선택) */
+    
+    padding-right: 20px;       /* 칸막이와의 간격 */
+    border-right: 2px solid black /* 칸막이 선 */
+    
+
+}
+
+#footer{
+    height: 20%;
+}

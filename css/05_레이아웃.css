@@ -1,0 +1,91 @@
+h1{
+    background-color: red;
+}
+/* vw,vh,% */
+#target{
+    background-color: blue;
+    width: 50vw;
+    height: 50vh;
+}
+
+
+#a{
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+}
+#b{
+    width: 50%;
+    height: 50%;
+    background-color: gray;
+
+}
+
+span{
+    display: inline-block;
+    background-color: green;
+    width: 50px;
+    height: 50px;
+
+    border: 3px solid red;
+    border-radius: 10px;
+}
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    box-sizing: border-box;
+    background-color: gray;
+    font-size: 32px;
+/* 폰트 rem , em배수 ,  */
+
+    display: inline-block;
+
+    /* padding  중심>패딩>볼더>마진 내용물과 테두리 사이 여백 */
+    /* padding: 30px; */
+
+    /* 마진 : 요소 주변 여백 */
+    /* margin: 30px; */
+}
+
+.test{
+    background-color: lightgray;
+    /* relative 상대위치 */
+    
+}
+
+#t01{
+    /* static(정적인) : 문서의 흐름에 따라 배치 */
+
+    /* 상대 위치 : 원래 내 위치 기준으로 이동 */
+    /* position: relative */
+    /* top: 50px; */
+    /* bottom: 50px; */
+    /* left:50px; */
+    /* right:50px; */
+
+    /* 절대 위치 : 부모 기준으로 이동 */
+    /* position: absolute;
+    top: 50px;
+    left: 50px; */
+
+    /* 고정 위치 : 화면 기준 *광고같은거 */
+    position: fixed;
+    left: 50px;
+    top: 50px;
+
+    /* 스티키 : fixed + absolute 부모를 벗어나지 못함 */
+    position: sticky;
+    left:50px;
+    top: 50px;
+}
+
+/* 포지션은 설정안하면 스태틱입니다 */
+#outer{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 5px dashed black; 
+}
